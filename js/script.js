@@ -12,16 +12,16 @@ $(document).ready(function(){
    
     $('.bookmate').click(function(event){
         $('.popup, .popup__book').addClass('active');
-        $('.latern, .flowers, .laptop, .paper, .cup, .bookmate, ').toggleClass('blured');
+        $('.latern, .flowers, .laptop, .paper, .cup, .bookmate ').toggleClass('blured');
     })
     $('.cup__note').click(function(event){
         $('.popup, .popup__pass').addClass('active');
         $('.popup__book').removeClass('active');
-        $('.latern, .flowers, .laptop, .paper, .cup, .bookmate, ').toggleClass('blured');
+        $('.latern, .flowers, .laptop, .paper, .cup, .bookmate ').toggleClass('blured');
     })
     $('.popup').click(function(event){
         $('.popup, .popup__pass, .popup__book').removeClass('active');
-        $('.latern, .flowers, .laptop, .paper, .cup, .bookmate,  ').removeClass('blured');
+        $('.latern, .flowers, .laptop, .paper, .cup, .bookmate  ').removeClass('blured');
     })
 
 
