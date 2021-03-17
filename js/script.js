@@ -43,7 +43,7 @@ $(document).ready(function(){
         setTimeout("$('.flowers__pot').toggleClass('unclick')", 3000);
     })
     $('.laptop__blocker').change(function(event){
-        if(document.getElementById('pass').value == 'счастье123' || document.getElementById('pass').value == 'cxfcnmt123' ){
+        if(document.getElementById('pass').value == 'happy123' ){
             $('.laptop__blocker ').toggleClass('off');
         }else if(document.getElementById('pass').value == ''){
             $('.laptop__blocker input').removeClass('invalid');

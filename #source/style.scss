@@ -787,7 +787,7 @@ body{
             width: 300px;
             height: 300px;
             font-size: 36px;
-            font-family: Roboto;
+            font-family: Caveat;
             background: white;
             border: 1px solid black;
             display: flex;
@@ -819,7 +819,7 @@ body{
         & .left{
             padding: 19px 20px;
             & h4{
-                font-family: Roboto;
+                font-family: Caveat;
                 font-size: 24px;
                 font-weight: 400;
                 padding: 0;
@@ -830,8 +830,8 @@ body{
                 list-style: none;
                 margin-bottom: 20px;
                 text-align: left;
-                font-family: RLight;
-                font-size: 18px;
+                font-family: Caveat;
+                font-size: 22px;
                 line-height: 21px;
                 position: relative;
                 &::before{
@@ -846,9 +846,10 @@ body{
                 }
                 &.here::after{
                     content: 'v';
+                    font-size: 27px;
                     position: absolute;
-                    left: -15px;
-                    top: -2px;
+                    left: -18px;
+                    top: -4px;
                 }
             }
         }
@@ -860,10 +861,10 @@ body{
                 width: 163px;
             }
             & span{
-                font-family: RLight;
+                font-family: Caveat;
                 font-style: normal;
                 font-weight: 300;
-                font-size: 18px;
+                font-size: 25px;
                 line-height: 21px;
                 text-align: center;
             }
